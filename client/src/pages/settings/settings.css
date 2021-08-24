@@ -1,10 +1,9 @@
-.settings {
-  display: flex;
-}
-
 .settingsWrapper {
+  margin-left: 20%;
+  margin-right: 20%;
   flex: 9;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .settingsTitle {
@@ -16,11 +15,11 @@
 .settingsUpdateTitle {
   font-size: 30px;
   margin-bottom: 20px;
-  color: lightcoral;
+  color: rgb(44, 3, 44);
 }
 
 .settingsDeleteTitle {
-  color: red;
+  color: rgb(44, 3, 44);
   font-size: 12px;
   cursor: pointer;
 }
@@ -47,7 +46,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: lightcoral;
+  background-color: rgb(44, 3, 44);
   color: white;
   display: flex;
   align-items: center;
@@ -69,14 +68,14 @@
   border-bottom: 1px solid lightgray;
 }
 
-.settingsSubmit{
-    width: 150px;
-    align-self: center;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    background-color: teal;
-    padding: 10px;
-    margin-top: 20px;
-    cursor: pointer;
+.settingsSubmit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(44, 3, 44);
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
 }
