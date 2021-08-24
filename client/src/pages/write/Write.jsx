@@ -2,7 +2,6 @@ import { useContext, useState } from 'react'
 import './write.css'
 import axios from 'axios'
 import { Context } from '../../context/Context'
-
 export default function Write() {
   const [title, setTitle] = useState('')
   const [companyname, setCompanyname] = useState('')
@@ -158,6 +157,7 @@ export default function Write() {
             onChange={(e) => setDesc(e.target.value)}
           ></textarea>
         </div>
+
         <button className='writeSubmit' type='submit'>
           Publish
         </button>
