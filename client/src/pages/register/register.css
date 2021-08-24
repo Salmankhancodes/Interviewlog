@@ -3,13 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: whitesmoke;
   justify-content: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
 }
 
 .registerTitle {
@@ -26,7 +21,8 @@
   margin: 10px 0;
 }
 
-.registerInput {
+.registerForm > input {
+  border-radius: 10px;
   padding: 10px;
   background-color: white;
   border: none;
@@ -35,8 +31,9 @@
 .registerButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: teal;
+  background-color: rgb(44, 3, 44);
   border: none;
+  padding: 10px;
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -46,10 +43,10 @@
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: lightcoral;
+  border-color: 2px solid rgb(44, 3, 44);
+  background-color: whitesmoke;
   cursor: pointer;
-  border: none;
   padding: 10px;
-  color: white;
+  color: rgb(44, 3, 44);
   border-radius: 10px;
 }
